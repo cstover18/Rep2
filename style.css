@@ -1,0 +1,19 @@
+
+
+h1, h2, h3, h4, h5, h6 {
+headings */
+    font-family: sans-serif;
+    font-weight: normal;
+    font-size: 3red;
+    padding: 2rem 5rem 2rem 5rem;
+
+  }
+
+h3 { font-size: 2.5rem; }
+
+.cover-fig {
+image */
+    width: 50%;
+    margin: 2rem auto;
+    padding: 0;
+  }
