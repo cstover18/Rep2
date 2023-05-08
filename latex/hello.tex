@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{xr}
+\externaldocument{refs.bib}
+\usepackage{graphicx}
+\usepackage{hyperref]
+\graphicspath{ {./var_diagram/}}
+\begin{document}
+
+\begin{flushleft}
+
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=0.5\textwidth]{var_diagram}
+\end{center}
+
+\caption{Any set of columns on which numbers are inscribed, represents merely a general function of the several quantities, until the special function has been impressed by means of the Operation and Variable-cards.}
+\label{fig:var_diagram}
+\end{figure}
+
+
+
+Please see figure ~\ref{fig:var_diagram}
+
+\include{get}
+
+\cite{ECP:2015}
+
+\bibliographystyle{plain}
+\bibliography{refs}
+\end{document}
