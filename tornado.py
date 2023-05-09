@@ -9,7 +9,7 @@ for line in open('data.txt', 'r'):
 
 plt.title("Yearly Tornado Trends in Arkansas 1950-2022")
 plt.xlabel('Year')
-plt.ylabel('Number of Tornados')
+plt.ylabel('Number of Tornadoes')
 plt.yticks(np.arange(0, 200, 25))
 plt.xticks(np.arange(0, 2022, 10))
 plt.plot(x, y, marker = 'o', c = 'g')

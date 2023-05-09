@@ -1,0 +1,41 @@
+\documentclass[12 pt., oneside, letterpaper]{article}
+\usepackage{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\graphicspath{ {./line_graph.jpg/}}
+
+\begin{center}
+\title{\HUGE Analysis of Arkansas Yearly Tornado Numbers}
+\author{\Large Carol Stover}
+\maketitle
+
+\end{center}
+
+\begin{document}
+
+\hrule{\textwidth}
+\begin{abstract}
+    \noindent This is my abstract
+\end{abstract}
+\hrule{\textwidth}
+
+\section{Introduction}
+
+For my data analysis project, I found data from the Times Record Tornado Archive, detailing the number of tornados
+experienced by the state of Arkansas every year from 1950 to 2022.
+ 
+\section{Data}
+\section{Visualization}
+\begin{figure}[h]
+\begin{center}
+\includegraphics[width=1.0\textwidth]{line_graph}
+
+\caption{A line graph showing the trend of tornados that occurred every year from 1950 to 2022 in Arkansas. 
+         According to the graph, while there are outliers, there is a slight upward trend, suggesting the rate of tornados in the state has increased through the years.}
+\end{center}
+\label{fig:line_graph}
+\end{figure}
+
+
+\section{Results}
+\end{document}
